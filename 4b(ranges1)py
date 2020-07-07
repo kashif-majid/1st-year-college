@@ -1,0 +1,26 @@
+# decimal = range(0, 100)
+# my_range = decimal[3:40:3]
+# print(my_range==range(3, 40, 3))
+# print(range(0, 5, 2)==range(0, 6, 2))
+# print(list(range(0, 5, 2)))
+# print(list(range(0, 6, 2)))
+
+# r = range(0, 100)
+# print(r)
+#
+# for i in r[::-2]:
+#     print(i)
+# print("="*12)
+# for i in range(99, 0, -2):
+#     print(i)
+# print(range(0, 100)[::-2]== range(99, 0, -2))
+#
+# for i in range(0, 100, -2):
+#     print(i)
+
+back_string = "loohcs"
+print(back_string[::-1])
+
+r = range(0, 10)
+for i in r[::-1]:
+    print(i)
